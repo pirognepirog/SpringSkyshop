@@ -18,4 +18,5 @@ public class SkyshopApplication {
     public String hello() {
         return "Hello word! This test";
     }
+
 }
