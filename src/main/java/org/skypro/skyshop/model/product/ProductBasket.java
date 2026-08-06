@@ -2,6 +2,7 @@ package org.skypro.skyshop.model.product;
 import org.skypro.skyshop.model.product.SimpleProduct;
 import java.util.*;
 
+
 public class ProductBasket {
 
     private Map<String, List<Product>> products;

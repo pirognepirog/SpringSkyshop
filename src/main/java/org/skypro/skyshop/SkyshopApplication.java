@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;import org.s
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@SpringBootApplication
+@SpringBootApplication // запуск веб приложения
 public class SkyshopApplication {
 
 	public static void main(String[] args) {
@@ -18,4 +18,5 @@ public class SkyshopApplication {
     public String hello() {
         return "Hello word! This test";
     }
+
 }
