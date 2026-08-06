@@ -60,6 +60,10 @@ public class StorageService {
         ).collect(Collectors.toList());
     }
 
+    public Optional<Product> getProductById(UUID id) {
+        return Optional.ofNullable(productMap.get(id));
+    }
+
     // метод для заполнения тестовыми данными контруктора
     // я пытался перетащить весь Main из предыдущего проекта, но из этого нечего не вышло
 
